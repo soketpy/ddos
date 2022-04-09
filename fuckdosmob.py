@@ -2,9 +2,7 @@
 import threading
 import requests
 import os
-from colorama import Fore, Back, Style
-
-print(Fore.RED + """
+print("""
 
 
 ╭━━━╮╱╱╱╱╱╭╮╱╭━━━╮╱╱╱╱╱╱╭━╮╭━╮╱╱╭╮╱╱╭╮
@@ -13,7 +11,6 @@ print(Fore.RED + """
 ┃╭━━┫┃┃┃╭━┫╰╯╯┃┃┃┃╭╮┃━━┫┃┃┃┃┃┃╭╮┃╭╮┣┫┃┃┃━┫
 ┃┃╱╱┃╰╯┃╰━┫╭╮┳╯╰╯┃╰╯┣━━┃┃┃┃┃┃┃╰╯┃╰╯┃┃╰┫┃━┫
 ╰╯╱╱╰━━┻━━┻╯╰┻━━━┻━━┻━━╯╰╯╰╯╰┻━━┻━━┻┻━┻━━╯
-t.me/soketpy | vk.com/mb_vlad
 
 """)
 ddos = input("Введите домен: ")

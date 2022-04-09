@@ -1,3 +1,6 @@
+### FuckDos Mobile
+> _**Версия: 0.2**_
+
 ###  Инструкция по учтановке FuckDos Mobile. 
 1) откройте termux
 2) введите: "`pkg install git -y`"

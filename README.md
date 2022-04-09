@@ -24,7 +24,7 @@
 **Windows**
 
 1) Загрузите Python с сайта python.org/ftp/python/3.10.4/python-3.10.4.exe
-2) Скачайте этот файл
+2) Скачайте этот файл drive.google.com/file/d/1BT37ZONXLzFyby2WCUzchc-HyfGt12rc/view?usp=sharing
 3) откройте cmd
 4) введите: "`cd <путь до папки с файлом>`"
 5) введите: "`py dos.py`"

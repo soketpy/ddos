@@ -1,7 +1,7 @@
-### FuckDos Mobile
+### FuckDos
 > _**Версия: 2.0**_
 
-###  Инструкция по учтановке FuckDos Mobile.
+###  Инструкция по учтановке FuckDos.
 
 **Termux**
 

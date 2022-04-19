@@ -10,8 +10,7 @@
 3) введите: "`pkg install python -y`"
 3) введите: "`git clone https://github.com/soketpy/ddos.git`"
 4) введите: "`cd ddos`"
-5) введите: "`python fuckbotmob.py`"
-
+5) введите: "`python dos.py`"
 **Linux**
 
 1) откройте консоль linux
@@ -19,7 +18,7 @@
 3) введите: "`pip install python -y`"
 3) введите: "`git clone https://github.com/soketpy/ddos.git`"
 4) введите: "`cd ddos`"
-5) введите: "`python fuckbotmob.py`"
+5) введите: "`python dos.py`"
 
 **Windows**
 

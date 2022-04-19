@@ -11,6 +11,7 @@
 3) введите: "`git clone https://github.com/soketpy/ddos.git`"
 4) введите: "`cd ddos`"
 5) введите: "`python dos.py`"
+
 **Linux**
 
 1) откройте консоль linux

